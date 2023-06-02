@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    background: #000;
+}
+
+img{
+    height: 50rem;
+}
+@media only screen and (max-width: 2677px) {
+    body{ 
+     display: grid;
+     grid-template-rows: repeat(5)1fr;
+     gap: 20px;
+     background-color: coral;
+    } 
+ }
+
+@media only screen and (max-width: 1024px) {
+   #two, #three, #four, #five{
+    /* display: none; */
+    background-color: aqua;
+   } 
+}
+@media only screen and (max-width: 768px) {
+    #one, #three, #four, #five{
+     /* display: none; */
+     background-color: blue;
+    } 
+ }
+ @media only screen and (max-width: 425px) {
+    #one, #two, #four, #five{
+     /* display: none; */
+     background-color: greenyellow;
+    } 
+ }
+ @media only screen and (max-width: 375px) {
+    #one, #two, #three, #five{
+     /* display: none; */
+     background: red;
+    } 
+ }
+ @media only screen and (max-width: 320px) {
+    #one, #two, #three, #four{
+     /* display: none; */
+     background-color: yellow;
+    } 
+ }
